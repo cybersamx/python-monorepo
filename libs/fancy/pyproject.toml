@@ -1,0 +1,28 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "cyberlib-fancy"
+version = "0.0.1"
+description = "High-level library"
+authors = [ "Samuel Chow" ]
+packages = [
+  { include = "cyberlib" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+numpy = ">=1.25"
+cyberlib-base = "*"  # A loose definition
+
+[tool.poetry.dev-dependencies]
+black = "^23.3.0"
+flake8 = "^6.0.0"
+isort = "^5.12.0"
+pyright = "^1.1.314"
+pytest = "^7.3.2"
+
+[tool.black]
+line-length = 100
+target-version = ['py39']

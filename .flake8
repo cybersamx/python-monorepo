@@ -1,0 +1,7 @@
+# Still need this file as flake8 still doesn't support pyproject.toml
+
+[flake8]
+max-line-length = 100
+# required for compatibility with Black:
+extend-ignore = E203
+exclude = .venv

@@ -1,0 +1,5 @@
+# Use pip -e (editable install) for local dependency. See https://peps.python.org/pep-0660/
+# Basically, instead of installing into site-packages. Editable install allows code to be
+# installed without it leaving its source directory.
+-e ../base
+

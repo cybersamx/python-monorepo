@@ -8,7 +8,7 @@ version = "0.0.1"
 description = "Shared library"
 authors = [ "Samuel Chow" ]
 packages = [
-  { include = "cyberlib" }
+  { include = "cyberlib_base" }
 ]
 
 [tool.poetry.dependencies]

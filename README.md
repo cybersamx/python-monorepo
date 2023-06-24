@@ -15,8 +15,8 @@ Implementation of a python monorepo inspired by this article [Tweag: Python Mono
 1. Install pip and tools.
 
    ```shell
-   $ pip install -r pip-requirements.txt
-   $ pip install -r dev-requirements.txt
+   $ pip install -r requirements-pip.txt
+   $ pip install -r requirements-tools.txt
    ```
 
 ## Credits

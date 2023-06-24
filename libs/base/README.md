@@ -16,8 +16,8 @@ This library should be independent and completely sandboxed from other modules a
 1. Install pip and tools.
 
    ```shell
-   $ pip install -r $(git rev-parse --show-toplevel)/pip-requirements.txt
-   $ pip install -r $(git rev-parse --show-toplevel)/dev-requirements.txt
+   $ pip install -r $(git rev-parse --show-toplevel)/requirements-pip.txt
+   $ pip install -r $(git rev-parse --show-toplevel)/requirements-tools.txt
    $ pip install -r requirements.txt
    ```
    
